@@ -1,0 +1,80 @@
+.input_box{
+  width: 340px;
+  height: 45px;
+  border: 1px solid #CDCDCD;
+  border-radius: 5px;
+  display: flex;
+  margin-bottom: 15px;
+}
+.avatar {
+  padding-right: 10px;
+}
+.line {
+  width: 1px;
+  height: 32px;
+  background-color: #CDCDCD;
+  margin-top: 5px;
+}
+input {
+  border: none;
+  background-color: transparent;
+  width: 245px;
+  height: 43px;
+  font-size: 16px;
+  outline: none;
+  color: #CDCDCD;
+  margin-left: 20px;
+}
+.send {
+  margin-top: 40px;
+}
+.send_form {
+  margin: 20px auto 0;
+  height: 380px;
+  width: 420px;
+  border: 15px solid rgba(0,0,0,0.4);
+  border-radius: 10px;
+  background: #F4F4F4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1{
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  text-shadow: 1px 2px 4px black;
+  letter-spacing: 1.5px;
+  font-weight: 100;
+}
+.fas {
+  opacity: 0.4;
+  margin-left: 15px;
+  margin-right: 10px;
+  line-height: 42px;
+  font-size: 22px;
+}
+.far {
+  opacity: 0.4;
+  margin-left: 15px;
+  margin-right: 10px;
+  line-height: 42px;
+  font-size: 22px;
+}
+.fa-envelope {
+  font-size: 20px;
+}
+.btn_box {
+  width: 340px;
+  height: 50px;
+  font-size: 24px;
+  margin: 0 0 10px;
+  background-image: linear-gradient(to bottom, #a3d740, #9ad238, #91cd31, #88c928, #7fc41f);
+  color: #FFFFFF;
+  border-radius: 5px;
+  text-shadow: 2px 2px 6px black;
+  border: 1px solid #057F7B;
+  cursor: pointer;
+}
